@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loadout Creator | Aeros</title>
+    <link rel="stylesheet" href="../../src/css/general.css" />
+    <link rel="stylesheet" href="../../src/css/faction.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Loadout Creator | Aeros</h1>
+    </header>
+
+    <main>
+      <section class="controls-container">
+        <div id="faction-controls" class="controls">
+          <h2>Factions</h2>
+          <label for="faction-select">Choose your faction. Each one has its own style and abilities.</label>
+          <select id="faction-select" class="toggle">
+            <option value="faction-aeros" data-layer="faction-aeros" selected>Aeros</option>
+            <option value="faction-sabrask" data-layer="faction-sabrask">Sabrask</option>
+            <option value="faction-meridian" data-layer="faction-meridian">Meridian</option>
+          </select>
+        </div>
+
+        <div id="primary-controls" class="controls">
+          <h2>Primary</h2>
+          <label for="primary-select">Pick your main weapon. This will be your primary tool in battle.</label>
+          <select id="primary-select" class="toggle">
+            <option value="aeros-cadence" data-layer="aeros-cadence" selected>Cadence</option>
+            <option value="aeros-tempo" data-layer="aeros-tempo">Tempo</option>
+            <option value="aeros-blitz" data-layer="aeros-blitz">Blitz</option>
+            <option value="aeros-pulse" data-layer="aeros-pulse">Pulse</option>
+            <option value="aeros-sprinter" data-layer="aeros-sprinter">Sprinter</option>
+          </select>
+        </div>
+
+        <div id="secondary-controls" class="controls">
+          <h2>Secondary</h2>
+          <label for="secondary-select">Select your secondary weapon. It’s your backup for tough situations.</label>
+          <select id="secondary-select" class="toggle">
+            <option value="aeros-blink" data-layer="aeros-blink" selected>Blink</option>
+            <option value="aeros-punch" data-layer="aeros-punch">Punch</option>
+            <option value="aeros-juke" data-layer="aeros-juke">Juke</option>
+          </select>
+        </div>
+
+        <div id="perks-controls" class="controls">
+          <h2>Perks</h2>
+          <label for="perks1-select">Choose perks that enhance your abilities in-game.</label>
+          <div class="perk-select-container">
+            <!-- Perk Wrapper für beide Selects -->
+            <div class="perk-wrapper">
+              <div class="perk-select">
+                <label for="perks1-select">Perk 1</label>
+                <select id="perks1-select" class="toggle">
+                  <option value="aeros-perks1-fast-hands" data-layer="aeros-perks1-fast-hands" selected>Fast Hands</option>
+                  <option value="aeros-perks1-killer-cooldown" data-layer="aeros-perks1-killer-cooldown">
+                    Killer Cooldown
+                  </option>
+                  <option value="aeros-perks1-quick-draw" data-layer="aeros-perks1-quick-draw">Quick Draw</option>
+                  <option value="aeros-perks1-rapid-recharge" data-layer="aeros-perks1-rapid-recharge">
+                    Rapid Recharge
+                  </option>
+                  <option value="aeros-perks1-speedy-slayer" data-layer="aeros-perks1-speedy-slayer">Speedy Slayer</option>
+                </select>
+              </div>
+
+              <div class="perk-select">
+                <label for="perks2-select">Perk 2</label>
+                <select id="perks2-select" class="toggle">
+                  <option value="aeros-perks2-super-fit" data-layer="aeros-perks2-super-fit" selected>Super Fit</option>
+                  <option value="aeros-perks2-hustle" data-layer="aeros-perks2-hustle">Hustle</option>
+                  <option value="aeros-perks2-slide" data-layer="aeros-perks2-slide">Slide</option>
+                  <option value="aeros-perks2-gear-upgrade" data-layer="aeros-perks2-gear-upgrade">Gear Upgrade</option>
+                  <option value="aeros-perks2-better-rush" data-layer="aeros-perks2-better-rush">Better Rush</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="equipment-controls" class="controls">
+          <h2>Equipment</h2>
+          <label for="equipment-select">Select your equipment. Useful tools to help in battle.</label>
+          <select id="equipment-select" class="toggle">
+            <option value="aeros-equipment-shock-disc" data-layer="aeros-equipment-shock-disc">Shock Disc</option>
+            <option value="aeros-equipment-stim-shot" data-layer="aeros-equipment-stim-shot">Stim Shot</option>
+            <option value="aeros-equipment-porta-portal" data-layer="aeros-equipment-porta-portal" selected>
+              Porta Portal
+            </option>
+          </select>
+        </div>
+      </section>
+
+      <section>
+        <div class="preview-container">
+          <canvas id="preview" class="preview" aria-label="Preview"></canvas>
+        </div>
+      </section>
+
+      <button id="exportBtn" type="button">Save Image</button>
+    </main>
+
+    <script src="../../src/js/aeros.js" defer></script>
+  </body>
+</html>
