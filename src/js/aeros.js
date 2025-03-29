@@ -9,39 +9,39 @@ document.addEventListener("DOMContentLoaded", () => {
   // Bilder-Pfade
   const imagePaths = {
     // Faction
-    "faction-aeros": "/assets/aeros/loadout_aeros_background.png",
-    "faction-sabrask": "/assets/sabrask/loadout_sabrask_background.png",
-    "faction-meridian": "/assets/meridian/loadout_meridian_background.png",
+    "faction-aeros": "../../assets/aeros/loadout_aeros_background.png",
+    "faction-sabrask": "../../assets/sabrask/loadout_sabrask_background.png",
+    "faction-meridian": "../../assets/meridian/loadout_meridian_background.png",
     // Primary
-    "aeros-cadence": "/assets/aeros/loadout_aeros_primary_cadence.png",
-    "aeros-tempo": "/assets/aeros/loadout_aeros_primary_tempo.png",
-    "aeros-blitz": "/assets/aeros/loadout_aeros_primary_blitz.png",
-    "aeros-pulse": "/assets/aeros/loadout_aeros_primary_pulse.png",
-    "aeros-sprinter": "/assets/aeros/loadout_aeros_primary_sprinter.png",
+    "aeros-cadence": "../../assets/aeros/loadout_aeros_primary_cadence.png",
+    "aeros-tempo": "../../assets/aeros/loadout_aeros_primary_tempo.png",
+    "aeros-blitz": "../../assets/aeros/loadout_aeros_primary_blitz.png",
+    "aeros-pulse": "../../assets/aeros/loadout_aeros_primary_pulse.png",
+    "aeros-sprinter": "../../assets/aeros/loadout_aeros_primary_sprinter.png",
 
     // Secondary
-    "aeros-blink": "/assets/aeros/loadout_aeros_secondary_blink.png",
-    "aeros-punch": "/assets/aeros/loadout_aeros_secondary_punch.png",
-    "aeros-juke": "/assets/aeros/loadout_aeros_secondary_juke.png",
+    "aeros-blink": "../../assets/aeros/loadout_aeros_secondary_blink.png",
+    "aeros-punch": "../../assets/aeros/loadout_aeros_secondary_punch.png",
+    "aeros-juke": "../../assets/aeros/loadout_aeros_secondary_juke.png",
 
     // Perks I
-    "aeros-perks1-fast-hands": "/assets/aeros/loadout_aeros_perks1_fast_hands.png",
-    "aeros-perks1-killer-cooldown": "/assets/aeros/loadout_aeros_perks1_killer_cooldown.png",
-    "aeros-perks1-quick-draw": "/assets/aeros/loadout_aeros_perks1_quick_draw.png",
-    "aeros-perks1-rapid-recharge": "/assets/aeros/loadout_aeros_perks1_rapid_recharge.png",
-    "aeros-perks1-speedy-slayer": "/assets/aeros/loadout_aeros_perks1_speedy_slayer.png",
+    "aeros-perks1-fast-hands": "../../assets/aeros/loadout_aeros_perks1_fast_hands.png",
+    "aeros-perks1-killer-cooldown": "../../assets/aeros/loadout_aeros_perks1_killer_cooldown.png",
+    "aeros-perks1-quick-draw": "../../assets/aeros/loadout_aeros_perks1_quick_draw.png",
+    "aeros-perks1-rapid-recharge": "../../assets/aeros/loadout_aeros_perks1_rapid_recharge.png",
+    "aeros-perks1-speedy-slayer": "../../assets/aeros/loadout_aeros_perks1_speedy_slayer.png",
 
     // Perks II
-    "aeros-perks2-super-fit": "/assets/aeros/loadout_aeros_perks2_super_fit.png",
-    "aeros-perks2-hustle": "/assets/aeros/loadout_aeros_perks2_hustle.png",
-    "aeros-perks2-slide": "/assets/aeros/loadout_aeros_perks2_slide.png",
-    "aeros-perks2-gear-upgrade": "/assets/aeros/loadout_aeros_perks2_gear_upgrade.png",
-    "aeros-perks2-better-rush": "/assets/aeros/loadout_aeros_perks2_better_rush.png",
+    "aeros-perks2-super-fit": "../../assets/aeros/loadout_aeros_perks2_super_fit.png",
+    "aeros-perks2-hustle": "../../assets/aeros/loadout_aeros_perks2_hustle.png",
+    "aeros-perks2-slide": "../../assets/aeros/loadout_aeros_perks2_slide.png",
+    "aeros-perks2-gear-upgrade": "../../assets/aeros/loadout_aeros_perks2_gear_upgrade.png",
+    "aeros-perks2-better-rush": "../../assets/aeros/loadout_aeros_perks2_better_rush.png",
 
     // Equipment
-    "aeros-equipment-shock-disc": "/assets/aeros/loadout_aeros_equipment_shock_disc.png",
-    "aeros-equipment-stim-shot": "/assets/aeros/loadout_aeros_equipment_stim_shot.png",
-    "aeros-equipment-porta-portal": "/assets/aeros/loadout_aeros_equipment_porta_portal.png",
+    "aeros-equipment-shock-disc": "../../assets/aeros/loadout_aeros_equipment_shock_disc.png",
+    "aeros-equipment-stim-shot": "../../assets/aeros/loadout_aeros_equipment_stim_shot.png",
+    "aeros-equipment-porta-portal": "../../assets/aeros/loadout_aeros_equipment_porta_portal.png",
   };
 
   const loadedImages = {};
